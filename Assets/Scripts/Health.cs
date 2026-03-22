@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         healthPoint = defaultHealthPoint;//Demo part 7
         onHealthChanged?.Invoke();//Demo part 7
     }
-    public void OnTriggerEnter2D(Collider2D collision) => Die();
+    
 
     public void TakeDamage(int damage)
     {
